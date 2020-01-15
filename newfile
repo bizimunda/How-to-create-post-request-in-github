@@ -1,0 +1,15 @@
+1. Get webtoken from github
+2. This is the endpoint you will use: https://api.github.com/user/repos
+This is the code you have to put in the body
+
+{
+  "name": "Hello-World",
+  "description": "This is your first repository",
+  "homepage": "https://github.com",
+  "private": false,
+  "has_issues": true,
+  "has_projects": true,
+  "has_wiki": true
+}
+
+name and description you can change as you want
